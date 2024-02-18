@@ -1,8 +1,5 @@
-module github.com/HugoBlox/hugo-blox-builder/starters/blog
+module github.com/byqmor/awarn-blog
 
-go 1.19
+go 1.21.4
 
-require (
-	github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify v1.1.2-0.20231125204555-f431a4a2c705
-	github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind v0.2.1-0.20240128183758-3fb9b2e11ab0
-)
+require github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify v1.1.1 // indirect
